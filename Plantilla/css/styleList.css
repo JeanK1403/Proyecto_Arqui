@@ -127,3 +127,8 @@
 .thumbnail {
     border-style: none;
 }
+
+.right{
+    float: right;
+    padding-top: 2%;
+}
