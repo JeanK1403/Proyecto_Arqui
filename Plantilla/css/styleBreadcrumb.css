@@ -1,0 +1,10 @@
+
+.breadcrumb, .breadcrumb a{
+	background-color: inherit;
+	color: white;
+}
+
+#site{
+	margin: 0 auto;
+	width: 200px;
+}
