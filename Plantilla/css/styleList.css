@@ -112,12 +112,12 @@
     background-image: url('../images/shoes.jpg');
 }
 
-.kidsImage {
-    background-image: url('../images/kids.jpg');
+.girlImage {
+    background-image: url('../images/girl.jpg');
 }
 
-.featureImage {
-    background-image: url('../images/feature.jpg');
+.boyImage {
+    background-image: url('../images/boy.png');
 }
 
 .subscribe {
