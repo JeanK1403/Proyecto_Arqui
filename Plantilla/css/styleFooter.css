@@ -127,7 +127,7 @@
 }
 
 .footer-distributed .footer-icons{
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 .footer-distributed .footer-icons a{
@@ -145,6 +145,24 @@
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+
+.footer-distributed .siteMap i{
+
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 50%;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 15px;
+	margin-top: 10px;
 }
 
 /* footerLine */
