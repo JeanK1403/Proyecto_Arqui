@@ -1,338 +1,384 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
 <html lang="en">
-	<head>	
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <head>	
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
-		<script src="js/app.js"></script>
+        <script src="js/app.js"></script>
 
-		<link rel="stylesheet" href="css/styleNavbar.css">
-		<link rel="stylesheet" href="css/styleJumbotron.css">
-		<link rel="stylesheet" href="css/styleList.css">
-		<link rel="stylesheet" href="css/styleProduct.css">
-		<link rel="stylesheet" href="css/styleFooter.css">
-		<title>Shopping CR</title>
-	</head>
-	<body>
-		
-		<header>
-			<div id="flipkart-navbar">
-				<div class="container">
-					<div class="row row2">
-						<div class="col-sm-3">
-							<h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
-							<h1 class="navbarText"><span class="largenav"><a href="index2.html">Shopping CR</a></span></h1>
-						</div>
-						<div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
-							<div class="row">
-								<input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Búsqueda de productos, marcas y más" name="search">
-								<button class="flipkart-navbar-button col-xs-1">
-									<span class="iconsearch fa fa-search"></span>
-								</button>
-							</div>
-						</div>
-						<div class="cart largenav col-sm-2">
-							<a class="cart-button">
-								<span class="iconcart fa fa-shopping-cart"></span> Cart
-							</a>
-						</div>
-						<div class="cart largenav col-sm-2">
-							<a class="cart-button">
-								Salir
-							</a>
-						</div>
-					</div>
+        <link rel="stylesheet" href="css/styleNavbar.css">
+        <link rel="stylesheet" href="css/styleJumbotron.css">
+        <link rel="stylesheet" href="css/styleList.css">
+        <link rel="stylesheet" href="css/styleProduct.css">
+        <link rel="stylesheet" href="css/styleFooter.css">
+        <link rel="stylesheet" href="css/styleCarousel.css">
+        <title>Shopping CR</title>
+    </head>
+    <body>
 
-					<div class="row row1">
-						<ul class="largenav text-center">
-							<li class="upper-links dropdown"><a class="links" href="#!">Hombre</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-							<li class="upper-links dropdown"><a class="links" href="#!">Mujer</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Medias</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-							<li class="upper-links dropdown"><a class="links" href="#!">Niño</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-							<li class="upper-links dropdown"><a class="links" href="#!">Niña</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div id="mySidenav" class="sidenav">
-				<div class="container sidenavContent">
-					<span class="sidenav-heading">Shopping CR</span>
-					<a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
-				</div>
-				<ul>
-					<li><a class="links" href="#!"><i class="fa fa-home"></i> Home</a></li>
-					<li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categories</a>
-						<ul id="listCategories" class="oculto">
-							<li><a class="links" href="#!" id="man"><i class="fa fa-male"></i>  Hombre</a>
-								<ul id="listMan" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>
-							<li><a class="links" href="#!" id="woman"><i class="fa fa-female"></i>  Mujer</a>
-								<ul id="listWoman" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>
-							<li><a class="links" href="#!" id="niño"><i class="fa fa-child"></i>  Niño</a>
-								<ul id="listNiño" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>								
-							<li><a class="links" href="#!" id="niña"><i class="fa fa-child"></i>  Niña</a>
-								<ul id="listNiña" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>								
-						</ul>
-					</li>
-					<li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
-				</ul>
-			</div>
-		</header>
+        <header>
+            <div id="flipkart-navbar">
+                <div class="container">
+                    <div class="row row2">
+                        <div class="col-sm-3">
+                            <h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
+                            <h1 class="navbarText"><span class="largenav"><a href="index2.html">Shopping CR</a></span></h1>
+                        </div>
+                        <div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
+                            <div class="row">
+                                <input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Búsqueda de productos, marcas y más" name="search">
+                                <button class="flipkart-navbar-button col-xs-1">
+                                    <span class="iconsearch fa fa-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cart largenav col-sm-2">
+                            <a class="cart-button">
+                                <span class="iconcart fa fa-shopping-cart"></span> Cart
+                            </a>
+                        </div>
+                        <div class="cart largenav col-sm-2">
+                            <a class="cart-button">
+                                Salir
+                            </a>
+                        </div>
+                    </div>
 
-		<div id="contenedor">				
-		
-			<div class="jumbotron jumbotron-fluid">	
-				<div class="container text-center">
-					<h1 class="font">Welcome to Shopping</h1>
-					<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit asdqet.</i></p>
-					<br>
-					<i class="fa fa-diamond icon"></i>
-					<br><br>
-				</div>
-			</div>
-			
-			<div class="container slide">
-				<div class="listImages">
-					<h1 class="text-center">Most Popular</h1>
-					<hr>
-					<div id="products" class="row list-group">
-						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
-							<div class="thumbnail">
-								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa.jpg" alt="" /></a>
-								<div class="caption">
-									<h4 class="group inner list-group-item-heading">
-										Product title</h4>
-									<p class="group inner list-group-item-text">
-										Product description...</p>
-									<div class="row">
-										<div class="col-xs-12 col-md-6">
-											<p class="lead">
-												$21.000</p>
-										</div>
-										<div class="col-xs-12 col-md-6 text-right">
-											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
-							<div class="thumbnail">
-								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/blusa.jpg" alt="" /></a>
-								<div class="caption">
-									<h4 class="group inner list-group-item-heading">
-										Product title</h4>
-									<p class="group inner list-group-item-text">
-										Product description...</p>
-									<div class="row">
-										<div class="col-xs-12 col-md-6">
-											<p class="lead">
-												$21.000</p>
-										</div>
-										<div class="col-xs-12 col-md-6 text-right">
-											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
-							<div class="thumbnail">
-								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/abrigo.jpg" alt="" /></a>
-								<div class="caption">
-									<h4 class="group inner list-group-item-heading">
-										Product title</h4>
-									<p class="group inner list-group-item-text">
-										Product description...</p>
-									<div class="row">
-										<div class="col-xs-12 col-md-6">
-											<p class="lead">
-												$21.000</p>
-										</div>
-										<div class="col-xs-12 col-md-6 text-right">
-											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
-							<div class="thumbnail">
-								<a href="#!" class="view"><img class="ihover group list-group-image" src="images/blusa2.jpg" alt="" /></a>
-								<div class="caption">
-									<h4 class="group inner list-group-item-heading">
-										Product title</h4>
-									<p class="group inner list-group-item-text">
-										Product description...</p>
-									<div class="row">
-										<div class="col-xs-12 col-md-6">
-											<p class="lead">
-												$21.000</p>
-										</div>
-										<div class="col-xs-12 col-md-6 text-right">
-											<a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div class="row row1">
+                        <ul class="largenav text-center">
+                            <li class="upper-links dropdown"><a class="links" href="#!">Hombre</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Mujer</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Niño</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Niña</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <div class="container sidenavContent">
+                    <span class="sidenav-heading">Shopping CR</span>
+                    <a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
+                </div>
+                <ul>
+                    <li><a class="links" href="#!"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categories</a>
+                        <ul id="listCategories" class="oculto">
+                            <li><a class="links" href="#!" id="man"><i class="fa fa-male"></i>  Hombre</a>
+                                <ul id="listMan" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="links" href="#!" id="woman"><i class="fa fa-female"></i>  Mujer</a>
+                                <ul id="listWoman" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="links" href="#!" id="niño"><i class="fa fa-child"></i>  Niño</a>
+                                <ul id="listNiño" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>								
+                            <li><a class="links" href="#!" id="niña"><i class="fa fa-child"></i>  Niña</a>
+                                <ul id="listNiña" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>								
+                        </ul>
+                    </li>
+                    <li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
+                </ul>
+            </div>
+        </header>
 
-				<!--  -->
-				
-				<div class="listImages text-center">
-					<h1>Fashion Styles</h1>
-					<hr>
-					<div id="fashionOptions" class="row list-group">
-						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<div class="thumbnail">
-								<div class="jumbotron menImage">
-									<strong>Man</strong>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<div class="thumbnail">
-								<div class="jumbotron womenImage">
-									<strong>Women</strong>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<div class="thumbnail">
-								<div class="jumbotron shoesImage">
-									<strong>Shoes</strong>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<div class="thumbnail">
-								<div class="jumbotron kidsImage">
-									<strong>Kids</strong>
-								</div>
-							</div>
-						</div>
-						<div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
-							<div class="thumbnail">
-								<div class="jumbotron featureImage">
-									<strong>Feature</strong>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div id="contenedor">		
+            <div class="carouselC">
+                <div class="container text-center">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
 
-		<footer class="container footer-distributed">
-			<div class="footer-left">
-				<h3>Shopping<span> CR</span></h3>
-				<p class="footer-links">
-					<a href="#">Hombre</a>		·
-					<a href="#">Mujer</a>	·
-					<a href="#">Niño</a>
-					<a href="#">Niña</a>
-				</p>
-				
-				<div class="footer-icons">					
-					<a href="#"><i class="fa fa-cc-mastercard"></i></a>
-					<a href="#"><i class="fa fa-cc-visa"></i></a>
-					<a href="#"><i class="fa fa-cc-amex"></i></a>
-					<a href="#"><i class="fa fa-credit-card-alt"></i></a>
-				</div>
-			</div>
-			<div class="footer-center">
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>21 Revolution Street</span> San José, Costa Rica</p>
-				</div>
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+506 2222-2222</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:info@company.com">info@shopcr.com</a></p>
-				</div>
-			</div>
-			<div class="footer-right">
-				<p class="footer-company-about">
-					<span><a href="about.html">Sobre la empresa</a></span>
-					Shopping CR es una empresa mayorista siendo una de las mejores opciones de compra por el hecho de contar con almacenes de amplia tradición y prestigio en el ámbito nacional.
-				</p>
-				<div class="footer-icons">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a  target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-					<a  target="_blank" href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a>
-					<a  target="_blank" href="https://www.facebook.com"><i class="fa fa-instagram"></i></a>
-				</div>
-			</div>
-			<div class="footerLine text-center">
-				<p class="footer-company-name">Shopping CR &copy; 2017</p>
-			</div>
-		</footer>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/slide1.jpg" alt="...">
+                                <div class="carousel-caption">
+                                    ...
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/slide1.jpg" alt="...">
+                                <div class="carousel-caption">
+                                    ...
+                                </div>
+                            </div>
 
-	</body>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>		
+                </div>	
+            </div>
+
+            <div class="jumbotron jumbotron-fluid">	
+                <div class="container text-center">
+                    <h1 class="font">Welcome to Shopping</h1>
+                    <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit asdqet.</i></p>
+                    <br>
+                    <i class="fa fa-diamond icon"></i>
+                    <br><br>
+                </div>
+            </div>
+
+            <div class="container slide">
+                <div class="listImages">
+                    <h1 class="text-center">Most Popular</h1>
+                    <hr>
+                    <div id="products" class="row list-group">
+                        <div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa.jpg" alt="" /></a>
+                                <div class="caption">
+                                    <h4 class="group inner list-group-item-heading">
+                                        Product title</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description...</p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                            <p class="lead">
+                                                $21.000</p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 text-right">
+                                            <a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <a href="#!" class="view"><img class="ihover group list-group-image" src="images/blusa.jpg" alt="" /></a>
+                                <div class="caption">
+                                    <h4 class="group inner list-group-item-heading">
+                                        Product title</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description...</p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                            <p class="lead">
+                                                $21.000</p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 text-right">
+                                            <a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <a href="#!" class="view"><img class="ihover group list-group-image" src="images/abrigo.jpg" alt="" /></a>
+                                <div class="caption">
+                                    <h4 class="group inner list-group-item-heading">
+                                        Product title</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description...</p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                            <p class="lead">
+                                                $21.000</p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 text-right">
+                                            <a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <a href="#!" class="view"><img class="ihover group list-group-image" src="images/blusa2.jpg" alt="" /></a>
+                                <div class="caption">
+                                    <h4 class="group inner list-group-item-heading">
+                                        Product title</h4>
+                                    <p class="group inner list-group-item-text">
+                                        Product description...</p>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                            <p class="lead">
+                                                $21.000</p>
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 text-right">
+                                            <a class="buttonAdd" href="#!"><span class="fa fa-shopping-cart"></span><b>Add</b></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+
+                <div class="listImages text-center">
+                    <h1>Fashion Styles</h1>
+                    <hr>
+                    <div id="fashionOptions" class="row list-group">
+                        <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="thumbnail">
+                                <div class="jumbotron menImage">
+                                    <strong>Man</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="thumbnail">
+                                <div class="jumbotron womenImage">
+                                    <strong>Women</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="thumbnail">
+                                <div class="jumbotron shoesImage">
+                                    <strong>Shoes</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="thumbnail">
+                                <div class="jumbotron kidsImage">
+                                    <strong>Kids</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="thumbnail">
+                                <div class="jumbotron featureImage">
+                                    <strong>Feature</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container footer-distributed">
+            <div class="footer-left">
+                <h3>Shopping<span> CR</span></h3>
+                <p class="footer-links">
+                    <a href="#">Hombre</a>		·
+                    <a href="#">Mujer</a>	·
+                    <a href="#">Niño</a>
+                    <a href="#">Niña</a>
+                </p>
+
+                <div class="footer-icons">					
+                    <a href="#"><i class="fa fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="fa fa-cc-visa"></i></a>
+                    <a href="#"><i class="fa fa-cc-amex"></i></a>
+                    <a href="#"><i class="fa fa-credit-card-alt"></i></a>
+                </div>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>21 Revolution Street</span> San José, Costa Rica</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+506 2222-2222</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:info@company.com">info@shopcr.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span><a href="about.html">Sobre la empresa</a></span>
+                    Shopping CR es una empresa mayorista siendo una de las mejores opciones de compra por el hecho de contar con almacenes de amplia tradición y prestigio en el ámbito nacional.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a  target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a  target="_blank" href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a>
+                    <a  target="_blank" href="https://www.facebook.com"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footerLine text-center">
+                <p class="footer-company-name">Shopping CR &copy; 2017</p>
+            </div>
+        </footer>
+
+    </body>
 </html>
