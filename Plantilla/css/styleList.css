@@ -100,6 +100,12 @@
     margin: 0;
 }
 
+.listImages h2 {
+    color: #2874f0;
+    font: normal 40px 'Cookie', cursive;
+    margin: 0;
+}
+
 .menImage {
     background-image: url('../images/men.jpg');
 }

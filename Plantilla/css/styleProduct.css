@@ -9,6 +9,8 @@ img {
 	max-width: 100%; 
 }
 
+
+
 .preview {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -22,8 +24,8 @@ img {
 }
 
 @media screen and (max-width: 996px) {
-	.preview {
-		margin-bottom: 20px; 
+	.preview, .details {
+		margin-bottom: 40px; 
 	} 
 }
 
@@ -171,6 +173,10 @@ img {
 
 .tooltip-inner {
 	padding: 1.3em;
+}
+
+.sug{
+	font-size: 14px;
 }
 
 @-webkit-keyframes opacity {

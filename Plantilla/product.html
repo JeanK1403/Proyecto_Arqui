@@ -1,254 +1,286 @@
 <!DOCTYPE html>
 <html lang="zxx">
-	<head>	
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <head>	
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
-		<script src="js/app.js"></script>
+        <script src="js/app.js"></script>
 
-		<link rel="stylesheet" href="css/styleNavbar.css">
-		<link rel="stylesheet" href="css/styleJumbotron.css">
-		<link rel="stylesheet" href="css/styleList.css">
-		<link rel="stylesheet" href="css/styleProduct.css">
-		<link rel="stylesheet" href="css/styleFooter.css">
-		<link rel="stylesheet" href="css/styleBreadcrumb.css">
-		<link rel="stylesheet" href="css/styleHeader.css">
-		<title>Shopping CR</title>
-	</head>
-	<body>
-		
-		<header>
-			<div id="flipkart-navbar">
-				<div class="container">
-					<div class="row row2">
-						<div class="col-sm-3">
-							<h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
-							<h1 class="navbarText"><span class="largenav"><a href="index.html">Shopping CR</a></span></h1>
-						</div>
-						<div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
-							<div class="row">
-								<input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Search for Products, Brands and more" name="search">
-								<button class="flipkart-navbar-button col-xs-1">
-									<span class="iconsearch fa fa-search"></span>
-								</button>
-							</div>
-						</div>
-						<div class="cart largenav col-sm-2">
-							<a class="cart-button">
-								<span class="iconcart fa fa-shopping-cart" id="carrito"></span>
-							</a>
-						</div>
-						<div class="cart largenav col-sm-2">
-							<a class="cart-button">
-								Salir
-							</a>
-						</div>
-					</div>
+        <link rel="stylesheet" href="css/styleNavbar.css">
+        <link rel="stylesheet" href="css/styleJumbotron.css">
+        <link rel="stylesheet" href="css/styleList.css">
+        <link rel="stylesheet" href="css/styleProduct.css">
+        <link rel="stylesheet" href="css/styleFooter.css">
+        <link rel="stylesheet" href="css/styleBreadcrumb.css">
+        <link rel="stylesheet" href="css/styleHeader.css">
+        <title>Shopping CR</title>
+    </head>
+    <body>
 
-					<div class="row row1">
-						<ul class="largenav text-center">
-							<li class="upper-links dropdown"><a class="links" href="#!">Hombre</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-							<li class="upper-links dropdown"><a class="links" href="#!">Mujer</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-							<li class="upper-links dropdown"><a class="links" href="#!">Niño</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-							<li class="upper-links dropdown"><a class="links" href="#!">Niña</a>
-								<ul class="dropdown-menu">
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
-									<li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div id="mySidenav" class="sidenav">
-				<div class="container sidenavContent">
-					<span class="sidenav-heading">Shopping CR</span>
-					<a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
-				</div>
-				<ul>
-					<li><a class="links" href="index.html"><i class="fa fa-home"></i> Inicio</a></li>
-					<li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categorías</a>
-						<ul id="listCategories" class="oculto">
-							<li><a class="links" href="#!" id="man"><i class="fa fa-male"></i>  Hombre</a>
-								<ul id="listMan" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Camisas</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>
-							<li><a class="links" href="#!" id="woman"><i class="fa fa-female"></i>  Mujer</a>
-								<ul id="listWoman" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Blusas</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>
-							<li><a class="links" href="#!" id="niño"><i class="fa fa-child"></i>  Niño</a>
-								<ul id="listNiño" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Camisas</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>								
-							<li><a class="links" href="#!" id="niña"><i class="fa fa-child"></i>  Niña</a>
-								<ul id="listNiña" class="oculto">
-									<li><a class="links" href="products_list.html"><i class=""></i>  Blusas</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-									<li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a class="links" href="#!"><i class="iconcart fa fa-shopping-cart"></i>.   Carrito</a></li>
-					<li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
-				</ul>
-			</div>
-		</header>
-						
-		<div class="container">
+        <header>
+            <div id="flipkart-navbar">
+                <div class="container">
+                    <div class="row row2">
+                        <div class="col-sm-3">
+                            <h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
+                            <h1 class="navbarText"><span class="largenav"><a href="index.html">Shopping CR</a></span></h1>
+                        </div>
+                        <div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
+                            <div class="row">
+                                <input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Search for Products, Brands and more" name="search">
+                                <button class="flipkart-navbar-button col-xs-1">
+                                    <span class="iconsearch fa fa-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cart largenav col-sm-2">
+                            <a class="cart-button">
+                                <span class="iconcart fa fa-shopping-cart" id="carrito"></span>
+                            </a>
+                        </div>
+                        <div class="cart largenav col-sm-2">
+                            <a class="cart-button">
+                                Salir
+                            </a>
+                        </div>
+                    </div>
 
-			<ul class="breadcrumb">
-			  <li><a href="index.html">Inicio</a></li>
-			  <li><a href="hombre.html">Hombre</a></li>
-			  <li><a href="products_list.html">Camisas</a></li>
-			  <li>Camiseta adidas</li>
-			</ul>	
+                    <div class="row row1">
+                        <ul class="largenav text-center">
+                            <li class="upper-links dropdown"><a class="links" href="hombre.html">Hombre</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="mujer.html">Mujer</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Niño</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Niña</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <div class="container sidenavContent">
+                    <span class="sidenav-heading">Shopping CR</span>
+                    <a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
+                </div>
+                <ul>
+                    <li><a class="links" href="index.html"><i class="fa fa-home"></i> Inicio</a></li>
+                    <li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categorías</a>
+                        <ul id="listCategories" class="oculto">
+                            <li><a class="links" href="hombre.html" id="man"><i class="fa fa-male"></i>  Hombre</a>
+                                <ul id="listMan" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisas</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="links" href="mujer.html" id="woman"><i class="fa fa-female"></i>  Mujer</a>
+                                <ul id="listWoman" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Blusas</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="links" href="#!" id="niño"><i class="fa fa-child"></i>  Niño</a>
+                                <ul id="listNiño" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisas</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>								
+                            <li><a class="links" href="#!" id="niña"><i class="fa fa-child"></i>  Niña</a>
+                                <ul id="listNiña" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Blusas</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="links" href="#!"><i class="iconcart fa fa-shopping-cart"></i>.   Carrito</a></li>
+                    <li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
+                </ul>
+            </div>
+        </header>
 
-			<div class="card">
-				<div class="container-fliud">
-					<div class="wrapper row">
-						<div class="preview col-md-4">						
-							<div class="preview-pic tab-content" >
-								<div class="tab-pane active" id="pic-1"><img src="images/camisetaAdidas1.jpg" alt="Camisa" /></div>
-								<div class="tab-pane" id="pic-2"><img src="images/camisetaAdidas2.jpg" alt="Camisa" /></div>
-								<div class="tab-pane" id="pic-3"><img src="images/camisetaAdidas3.jpg" alt="Camisa" /></div>				
-								<div class="tab-pane" id="pic-4"><img src="images/camisetaAdidas4.jpg" alt="Camisa" /></div>
-								<div class="tab-pane" id="pic-5"><img src="images/camisetaAdidas5.jpg"  alt="Camisa" /></div>
-							</div>
-							<ul class="preview-thumbnail nav nav-tabs" >
-								<li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/camisetaAdidas1.jpg" alt="Camisa" /></a></li>
-								<li><a data-target="#pic-2" data-toggle="tab"><img src="images/camisetaAdidas2.jpg" alt="Camisa" /></a></li>
-								<li><a data-target="#pic-3" data-toggle="tab"><img src="images/camisetaAdidas3.jpg" alt="Camisa" /></a></li>
-								<li><a data-target="#pic-4" data-toggle="tab"><img src="images/camisetaAdidas4.jpg" alt="Camisa" /></a></li>
-								<li><a data-target="#pic-5" data-toggle="tab"><img src="images/camisetaAdidas5.jpg"  alt="Camisa" /></a></li>
-							</ul>						
-						</div>
-						<div class="details col-md-8">
-							<h3 class="product-title">Camiseta adidas</h3>
-							<div class="rating">
-								<div class="stars">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-								</div>
-								<span class="review-no">2115 opiniones</span>
-							</div>
-							<p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quisquam dolorum ipsum suscipit deserunt aperiam doloribus consequatur nisi.</p>
-							<h5 class="price">precio: <span><s>$28</s></span></h5>
-							<h4 class="price">ahora: <span><b>$18</b></span></h4>
-							<p class="vote"><strong>85%</strong> de compradores disfrutaron de este producto! <strong>(251 votos)</strong></p>
-							<h5 class="sizes">tamaños:
-								<span class="size" data-toggle="tooltip" title="small">s</span>
-								<span class="size" data-toggle="tooltip" title="medium">m</span>
-								<span class="size" data-toggle="tooltip" title="large">l</span>
-								<span class="size" data-toggle="tooltip" title="xtra large">xl</span>
-							</h5>
-							<div class="action">
-								<button class="cart cart-button" type="button"><span class="fa fa-shopping-cart"></span></button>
-								<button class="like cart-button" type="button"><span class="fa fa-heart"></span></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<hr>
-			
-			<div id="content">
-				<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-					<li class="active">
-						<a href="#description" data-toggle="tab">Descripción</a>
-					</li>
-					<li>
-						<a href="#info" data-toggle="tab">Más información</a>
-					</li>
-					<li>
-						<a href="#seller" data-toggle="tab">Acerca del vendedor</a>
-					</li>
-				</ul>
-				<div id="my-tab-content" class="tab-content">
-					<div class="tab-pane active" id="description">
-						<h1>Descripción</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur vero magnam libero. Excepturi asperiores facilis quis ea qui amet itaque laboriosam saepe similique! Non rerum voluptates, odio tempore aut corporis ut adipisci dolores provident asperiores.</p>
-						<ul>
-							<li>Lorem ipsum dolor sit amet.</li>
-							<li>Dolorem qui vel repellendus quos!</li>
-							<li>Necessitatibus accusamus ipsum natus laboriosam.</li>
-							<li>Consequuntur culpa, aliquid voluptates ipsam.</li>
-							<li>Ratione repellat nostrum distinctio minus!</li>
-							<li>Veritatis odit corrupti accusantium excepturi!</li>
-							<li>Illo, eius nihil neque maiores.</li>
-						</ul>
-					</div>
-					<div class="tab-pane" id="info">
-						<h1>Más Información</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, velit. Perferendis repudiandae pariatur, id corporis sequi sunt. Dolores quae eligendi, quo, magni itaque magnam pariatur dolorum eaque, quibusdam sed, quasi reprehenderit inventore odit? Culpa, quisquam laboriosam inventore voluptatum aliquam ea.</p>
-						<p>Iusto, pariatur quam exercitationem quibusdam possimus eligendi facere accusantium at consectetur aliquid voluptas praesentium ipsum, modi alias omnis dolore culpa repellendus tenetur assumenda inventore itaque et quia, asperiores similique. Totam aut vel quisquam voluptatum iste neque quaerat, in suscipit doloremque!</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, velit. Perferendis repudiandae pariatur, id corporis sequi sunt. Dolores quae eligendi, quo, magni itaque magnam pariatur dolorum eaque, quibusdam sed, quasi reprehenderit inventore odit? Culpa, quisquam laboriosam inventore voluptatum aliquam ea.</p>
-						<p>Iusto, pariatur quam exercitationem quibusdam possimus eligendi facere accusantium at consectetur aliquid voluptas praesentium ipsum, modi alias omnis dolore culpa repellendus tenetur assumenda inventore itaque et quia, asperiores similique. Totam aut vel quisquam voluptatum iste neque quaerat, in suscipit doloremque!</p>
-					</div>
-					<div class="tab-pane" id="seller">
-						<h1>Acerca del vendedor</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam dolorum at officia consequatur minima, tempora, eveniet fugiat sed cumque earum laborum obcaecati libero doloremque quam!</p>
-						<p>Ad natus, voluptatibus incidunt sunt possimus voluptate quaerat, aut veniam accusantium qui necessitatibus temporibus eligendi, officiis reprehenderit iste. Illo fugit soluta, impedit eius unde dolore?</p>
-					</div>
-				</div>
-			</div>
-			
-			<hr>
-		</div>
+        <div class="container">
 
-		<footer class="container footer-distributed">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="hombre.html">Hombre</a></li>
+                <li><a href="products_list.html">Camisas</a></li>
+                <li>Camiseta adidas</li>
+            </ul>	
+
+            <div class="card">
+                <div class="container-fliud">
+                    <div class="wrapper row">
+                        <div class="preview col-md-5">						
+                            <div class="preview-pic tab-content" >
+                                <div class="tab-pane active" id="pic-1"><img src="images/camisetaAdidas1.jpg" alt="Camisa" /></div>
+                                <div class="tab-pane" id="pic-2"><img src="images/camisetaAdidas2.jpg" alt="Camisa" /></div>
+                                <div class="tab-pane" id="pic-3"><img src="images/camisetaAdidas3.jpg" alt="Camisa" /></div>				
+                                <div class="tab-pane" id="pic-4"><img src="images/camisetaAdidas4.jpg" alt="Camisa" /></div>
+                                <div class="tab-pane" id="pic-5"><img src="images/camisetaAdidas5.jpg"  alt="Camisa" /></div>
+                            </div>
+                            <ul class="preview-thumbnail nav nav-tabs" >
+                                <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="images/camisetaAdidas1.jpg" alt="Camisa" /></a></li>
+                                <li><a data-target="#pic-2" data-toggle="tab"><img src="images/camisetaAdidas2.jpg" alt="Camisa" /></a></li>
+                                <li><a data-target="#pic-3" data-toggle="tab"><img src="images/camisetaAdidas3.jpg" alt="Camisa" /></a></li>
+                                <li><a data-target="#pic-4" data-toggle="tab"><img src="images/camisetaAdidas4.jpg" alt="Camisa" /></a></li>
+                                <li><a data-target="#pic-5" data-toggle="tab"><img src="images/camisetaAdidas5.jpg"  alt="Camisa" /></a></li>
+                            </ul>						
+                        </div>
+                        <div class="details col-md-4">
+                            <h3 class="product-title">Camiseta adidas</h3>
+                            <div class="rating">
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="review-no">2115 opiniones</span>
+                            </div>
+                            <p class="product-description">Es ideal para cualquier situación, fresca, comoda y muy elegante.</p>
+                            <h5 class="price">precio: <span><s>$28</s></span></h5>
+                            <h4 class="price">ahora: <span><b>$18</b></span></h4>
+                            <p class="vote"><strong>85%</strong> de compradores disfrutaron de este producto! <strong>(251 votos)</strong></p>
+                            <h5 class="sizes">tamaños:
+                                <span class="size" data-toggle="tooltip" title="small">s</span>
+                                <span class="size" data-toggle="tooltip" title="medium">m</span>
+                                <span class="size" data-toggle="tooltip" title="large">l</span>
+                                <span class="size" data-toggle="tooltip" title="xtra large">xl</span>
+                            </h5>
+                            <div class="action">
+                                <button class="cart cart-button" type="button"><span class="fa fa-shopping-cart"></span></button>
+                                <button class="like cart-button" type="button"><span class="fa fa-heart"></span></button>
+                            </div>
+                        </div>
+                        <div class="details col-md-3">
+                            <h3 class="product-title">Descripción</h3>
+                            <p>Camiseta adidas basica, tejido de algodón,cómoda para ir de paseo, es de fácil combinación.</p>
+                            
+                            <li>Colores: blanco, azul y negro.</li>
+                            <li>100% algodón.</li>
+                            <li>Cuello redondo.</li>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="listImages">
+                <h2 class="text-center">Productos similares</h2>
+                <hr>
+                <div id="products" class="row list-group">
+                    <div class="item col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <div class="thumbnail">
+                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa3.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h4 class="group inner list-group-item-heading sug">
+                                    Camiseta de Goku</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <div class="thumbnail">
+                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h4 class="group inner list-group-item-heading sug">
+                                    Camisa Polo</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <div class="thumbnail">
+                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa2.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h4 class="group inner list-group-item-heading sug">
+                                    Camiseta Salomon</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <div class="thumbnail">
+                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa4.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h4 class="group inner list-group-item-heading sug">
+                                    Camiseta Nike</h4>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="item col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <div class="thumbnail">
+                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa6.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h4 class="group inner list-group-item-heading sug">
+                                    MC Laren azul</h4>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="item col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                        <div class="thumbnail">
+                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa7.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h4 class="group inner list-group-item-heading sug">
+                                    Capitan America</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content">
+
+            </div>
+
+            <hr>
+        </div>
+
+        <footer class="container footer-distributed">
             <div class="footer-left">
                 <h3>Shopping<span> CR</span></h3>
                 <p class="footer-links">
@@ -296,5 +328,5 @@
             </div>
         </footer>
 
-	</body>
+    </body>
 </html>
