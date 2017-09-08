@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/styleList.css">
     <link rel="stylesheet" href="css/styleProduct.css">
     <link rel="stylesheet" href="css/styleFooter.css">
+    <link rel="stylesheet" href="css/styleBreadcrumb.css">
+    <link rel="stylesheet" href="css/styleHeader.css">
     <title>Shopping CR</title>
 
 
@@ -41,11 +43,11 @@
                 <div class="row row2">
                     <div class="col-sm-3">
                         <h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
-                        <h1 class="navbarText"><span class="largenav"><a href="#">Shopping CR</a></span></h1>
+                        <h1 class="navbarText"><span class="largenav"><a href="index2.html">Shopping CR</a></span></h1>
                     </div>
                     <div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
                         <div class="row">
-                            <input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Search for Products, Brands and more" name="search">
+                            <input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Búsqueda de productos, marcas y más" name="search">
                             <button class="flipkart-navbar-button col-xs-1">
                                 <span class="iconsearch fa fa-search"></span>
                             </button>
@@ -53,59 +55,112 @@
                     </div>
                     <div class="cart largenav col-sm-2">
                         <a class="cart-button">
-                            <span class="iconcart fa fa-shopping-cart"></span> Cart
-                            <span class="item-number ">0</span>
+                            <span class="iconcart fa fa-shopping-cart" id="carrito"></span>
+                        </a>
+                    </div>
+                    <div class="cart largenav col-sm-2">
+                        <a class="cart-button">
+                            Salir
                         </a>
                     </div>
                 </div>
 
                 <div class="row row1">
-                    <ul class="largenav text-center">
-                        <li class="upper-links"><a class="links" href="#!">Home</a></li>
-                        <li class="upper-links"><a class="links" href="#!">Man</a></li>
-                        <li class="upper-links"><a class="links" href="#!">Women</a></li>
-                        <li class="upper-links"><a class="links" href="#!">kids</a></li>
-                        <li class="upper-links"><a class="links" href="#!">Shoes</a></li>
-                        <li class="upper-links"><a class="links" href="#!">Fashion</a></li>
-                        <li class="upper-links"><a class="links" href="#!">Feature</a></li>
-                        <li class="upper-links"><a class="links" href="#!">About</a></li>
-                        <li class="upper-links"><a class="links" href="#!">Log In</a></li>
-                        <!--<li class="upper-links dropdown"><a class="links" href="#!">My Account</a>
+                        <ul class="largenav text-center">
+                            <li class="upper-links dropdown"><a class="links" href="#!">Hombre</a>
                                 <ul class="dropdown-menu">
-                                    <li class="profile-li"><a class="profile-links" href="#!">My Order</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="#!">Gift Card</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="#!">Change Password </a></li>
-                                    <li class="profile-li"><a class="profile-links" href="#!">logout</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
                                 </ul>
-                            </li>-->
-                    </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Mujer</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Niño</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li class="upper-links dropdown"><a class="links" href="#!">Niña</a>
+                                <ul class="dropdown-menu">
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Medias </a></li>
+                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <div class="container sidenavContent">
-                <span class="sidenav-heading">Shopping CR</span>
-                <a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
+            <div id="mySidenav" class="sidenav">
+                <div class="container sidenavContent">
+                    <span class="sidenav-heading">Shopping CR</span>
+                    <a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
+                </div>
+                <ul>
+                    <li><a class="links" href="#!"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categories</a>
+                        <ul id="listCategories" class="oculto">
+                            <li><a class="links" href="#!" id="man"><i class="fa fa-male"></i>  Hombre</a>
+                                <ul id="listMan" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="links" href="#!" id="woman"><i class="fa fa-female"></i>  Mujer</a>
+                                <ul id="listWoman" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="links" href="#!" id="niño"><i class="fa fa-child"></i>  Niño</a>
+                                <ul id="listNiño" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>                               
+                            <li><a class="links" href="#!" id="niña"><i class="fa fa-child"></i>  Niña</a>
+                                <ul id="listNiña" class="oculto">
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisa</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalon</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Medias</a></li>
+                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
+                                </ul>
+                            </li>                               
+                        </ul>
+                    </li>
+                    <li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
+                </ul>
             </div>
-            <ul>
-                <li><a class="links" href="#!"><i class="fa fa-home"></i> Home</a></li>
-                <li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categories</a>
-                    <ul id="listCategories" class="oculto">
-                        <li><a class="links" href="#!"><i class="fa fa-male"></i>  Man</a></li>
-                        <li><a class="links" href="#!"><i class="fa fa-female"></i>  Woman</a></li>
-                        <li><a class="links" href="#!"><i class="fa fa-child"></i>  kids</a></li>
-                        <li><a class="links" href="#!"><i class="fa fa-cube"></i>  Shoes</a></li>
-                        <li><a class="links" href="#!"><i class="fa fa-shopping-bag"></i>  Fashion</a></li>
-                        <li><a class="links" href="#!"><i class="fa fa-lightbulb-o"></i>  Feature</a></li>
-                    </ul>
-                </li>
-                <li><a class="links" href="#!"><i class="fa fa-info-circle"></i> About</a></li>
-                <li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Log In</a></li>
-            </ul>
-        </div>
-    </header>
+        </header>
 
     <div class="container">
+        
+        <ul class="breadcrumb">
+          <li><a href="index2.html">Inicio</a></li>
+          <li>Lista de productos</li>
+        </ul>
 
         <div class="listImages">
             <h1 class="text-center">Categoria</h1>
@@ -229,7 +284,7 @@
                 <div class="row list-group">
                     <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="thumbnail">
-                            <a href="#!" class="view"><img class="ihover group list-group-image" src="images/camisa.jpg" alt="" /></a>
+                            <a href="product.html" class="view"><img class="ihover group list-group-image" src="images/camisa.jpg" alt="" /></a>
                             <div class="caption">
                                 <h4 class="group inner list-group-item-heading">
                                             Product title</h4>
@@ -477,7 +532,8 @@
         </div>
         <div class="footer-right">
             <p class="footer-company-about">
-                <span>About the company</span> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus.
+                <span><a href="about.html">Sobre la empresa</a></span>
+                Shopping CR es una empresa mayorista siendo una de las mejores opciones de compra por el hecho de contar con almacenes de amplia tradición y prestigio en el ámbito nacional.
             </p>
             <div class="footer-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
