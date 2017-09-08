@@ -1,7 +1,13 @@
 
 .breadcrumb, .breadcrumb a{
 	background-color: inherit;
-	color: white;
+	color: #696969;
+	font-weight: bold;
+}
+
+.breadcrumb>li+li:before{
+	color: #696969;
+	content: ">";
 }
 
 #site{
