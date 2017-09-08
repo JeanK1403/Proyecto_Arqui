@@ -147,3 +147,27 @@
 #sortable li:hover{
     cursor: move;
 }
+
+.tumbCategories h4{
+    color: #2874f0;
+    font: normal 30px 'Cookie', cursive;
+    margin: 0;
+}
+.tumbCategories p{
+    font-style: italic;    
+}
+
+.collapsed-box{
+    height: 100%;
+    width: 100%;
+}
+
+.categoriaTum{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group {
+    text-align: center;
+}
