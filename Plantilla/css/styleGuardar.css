@@ -1,0 +1,8 @@
+    
+.guardar1, .guardar2, .guardar3{
+    background-color: rgb(116, 228, 162);
+    display: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}

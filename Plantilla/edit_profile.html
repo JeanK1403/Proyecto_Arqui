@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/styleFooter.css">
         <link rel="stylesheet" href="css/styleBreadcrumb.css">
         <link rel="stylesheet" href="css/styleHeader.css">
+        <link rel="stylesheet" href="css/styleGuardar.css">
         <title>Shopping CR</title>
     </head>
     <body>
@@ -88,11 +89,13 @@
                    
                     <div class="form-group"> 
                         <div class="col-md-12 text-center">
-                            <button type="submit" class="cart-button"><span class="fa fa-floppy-o"></span></button>
+                            <button type="button" id="btnUpdate1" class="cart-button"><span class="fa fa-floppy-o"></span></button>
                             <button type="submit" class="cart-button"><span class="fa fa-trash"></span></button>
                         </div>
                     </div>
-
+                    <div class="guardar1">
+                        Guardado exitoso
+                    </div>
                 </form>
                 </div>
 
@@ -113,19 +116,19 @@
                         </div>
                         <div class="checkbox">
                             <div class="col-md-12">
-                                <input type="checkbox" name="fl01" value="0">
+                                <input id="inputFavoritos" type="checkbox" name="fl01" value="0">
                                 <label>Productos favoritos</label>
                             </div>
                         </div>
                         <div class="checkbox">
                             <div class="col-md-12">
-                                <input type="checkbox" name="fl01" value="0">
+                                <input id="inputPopulares" type="checkbox" name="fl01" value="0">
                                 <label>Productos porpulares</label>
                             </div>
                         </div>
                         <div class="checkbox">
                             <div class="col-md-12">
-                                <input type="checkbox" name="fl01" value="0">
+                                <input id="inputCategorias" type="checkbox" name="fl01" value="0">
                                 <label>Las categorias</label>
                             </div>
                         </div>
@@ -134,9 +137,12 @@
 
                         <div class="form-group"> 
                             <div class="col-md-12 text-center">
-                                <button type="button" id="btnUpdate" class="cart-button"><span class="fa fa-floppy-o"></span>      </button>
+                                <button type="button" id="btnUpdate2" class="cart-button"><span class="fa fa-floppy-o"></span>      </button>
                                 <button type="submit" class="cart-button"><span class="fa fa-trash"></span></button>
                             </div>
+                        </div>
+                        <div class="guardar2">
+                            Guardado exitoso
                         </div>
 
                     </form>
@@ -169,9 +175,12 @@
 
                         <div class="form-group"> 
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="cart-button"><span class="fa fa-floppy-o"></span></button>
+                                <button type="button" id="btnUpdate3" class="cart-button"><span class="fa fa-floppy-o"></span></button>
                                 <button type="submit" class="cart-button"><span class="fa fa-trash"></span></button>
                             </div>
+                        </div>
+                        <div class="guardar3">
+                            Guardado exitoso
                         </div>
 
                     </form>

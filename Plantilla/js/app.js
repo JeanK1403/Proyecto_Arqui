@@ -33,7 +33,44 @@ $(document).ready(function (){
 		loadPage();
 	});
 
+
+    let populares = localStorage.getItem("populares");
+    // localStorage.removeItem('populares');
+    let favoritos = localStorage.getItem("favoritos");
+    // localStorage.removeItem('favoritos');
+    let categorias = localStorage.getItem("categorias");
+    // localStorage.removeItem('categorias');
+    let recomendados = localStorage.getItem("recomendados");
+    // localStorage.removeItem('recomendados');
+
+    if(populares !== null && favoritos !== null && categorias !== null && recomendados !== null){
+        if(populares === "false")
+            $(".populares").css("display","none")
+        else
+            $(".populares").css("display","block")
+
+        if(favoritos === "false")
+            $(".favoritos").css("display","none")
+        else
+            $(".favoritos").css("display","block")
+
+        if(categorias === "false")
+            $(".categorias").css("display","none")
+        else
+            $(".categorias").css("display","block")
+
+        if(recomendados === "false")
+            $(".recomendaciones").css("display","none")
+        else
+            $(".recomendaciones").css("display","block")
+
+      $('#inputPopulares').prop('checked', (populares === 'true'));
+      $('#inputFavoritos').prop('checked', (favoritos === 'true'));
+      $('#inputCategorias').prop('checked', (categorias === 'true'));
+      $('#inputRecomendados').prop('checked', (recomendados === 'true'));
+    }
 });
+
 
 // NAVBAR
 var openNav = function() {
