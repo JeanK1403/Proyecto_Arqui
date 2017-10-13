@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+        <script src="js/app.js"></script>
+
+
+        <link rel="stylesheet" href="css/styleNavbar.css">
+        <link rel="stylesheet" href="css/styleJumbotron.css">
+        <link rel="stylesheet" href="css/styleList.css">
+        <link rel="stylesheet" href="css/styleProduct.css">
+        <link rel="stylesheet" href="css/styleFooter.css">
+        <link rel="stylesheet" href="css/styleBreadcrumb.css">
+        <link rel="stylesheet" href="css/styleHeader.css">
+        <title>Shopping CR</title>
+    </head>
+    <body>
+
+        <header>
+
+        </header>
+
+        <div class="container contact">
+
+            <ul class="breadcrumb">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="hombre.html">Editar Perfil</a></li>
+            </ul>
+
+            
+
+            <div class="col-md-12">
+                
+                <div class="col-md-6">
+                <h3 class="text-center">Información personal</h3>
+                <br>
+                
+                <p class="text-center">Modifique su información personal</p>
+
+                <form class="form-horizontal">
+                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 15px; margin-top: 15px;">
+                        <div class="thumbnail">
+                            <img id="imgUPL" class="ihover group list-group-image" src="images/default.png" alt="" />
+                            <div class="caption">
+
+                                <div class="row">
+
+                                    <div class="col-xs-12 col-md-6 text-right">
+                                    <label class="btn btn-primary btn-file">
+                                        <span class="fa fa-camera"></span> <input type="file" id="inputIM" style="display: none;">
+                                    </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control flipkart-navbar-input" id="nombre" value="Josue Valerio Ramirez" placeholder="Nombre (required)">
+                        </div>
+                    </div><br>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="email" class="form-control flipkart-navbar-input" id="email" value="josvr@hotmail.com"
+                            placeholder="Email (required)">
+                        </div>
+                    </div><br>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="password" class="form-control flipkart-navbar-input" id="Password" value="1235678" placeholder="Password">
+                        </div>
+                    </div><br>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="password" class="form-control flipkart-navbar-input" id="PasswordRepeat" value="1235678" placeholder="Repeat Password">
+                        </div>
+                    </div><br>
+                    
+                   
+                    <div class="form-group"> 
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="cart-button"><span class="fa fa-floppy-o"></span></button>
+                            <button type="submit" class="cart-button"><span class="fa fa-trash"></span></button>
+                        </div>
+                    </div>
+
+                </form>
+                </div>
+
+
+                <div class="col-md-6" style="padding-left: 10%;">
+                    <h3 class="text-center">Personificar sitio</h3>
+                    <br>
+
+                    <p class="text-center">Seleccione las secciones que deseaa observar</p>
+                    <form class="form-horizontal">
+
+                        <br>
+                        <div class="checkbox">
+                            <div class="col-md-12">
+                                <input id="inputRecomendados" type="checkbox" name="fl01" >
+                                <label>Productos recomendados</label>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="fl01" value="0">
+                                <label>Productos favoritos</label>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="fl01" value="0">
+                                <label>Productos porpulares</label>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="fl01" value="0">
+                                <label>Las categorias</label>
+                            </div>
+                        </div>
+                       
+                        <br>
+
+                        <div class="form-group"> 
+                            <div class="col-md-12 text-center">
+                                <button type="button" id="btnUpdate" class="cart-button"><span class="fa fa-floppy-o"></span>      </button>
+                                <button type="submit" class="cart-button"><span class="fa fa-trash"></span></button>
+                            </div>
+                        </div>
+
+                    </form>
+
+
+                    <br/>
+                    <br/>
+                    <h3 class="text-center">Notificaciones</h3>
+                    <br>
+
+                    <p class="text-center">Seleccione el tipo de notificaciones que desea recibir en su correo</p>
+
+                    <form class="form-horizontal">
+
+                        <br>
+                        <div class="checkbox">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="fl01" value="0">
+                                <label>Notificar productos nuevos</label>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <div class="col-md-12">
+                                <input type="checkbox" name="fl01" value="0">
+                                <label>Notifiar productos recomendados</label>
+                            </div>
+                        </div>
+                       
+                        <br>
+
+                        <div class="form-group"> 
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="cart-button"><span class="fa fa-floppy-o"></span></button>
+                                <button type="submit" class="cart-button"><span class="fa fa-trash"></span></button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="container footer-distributed">
+
+        </footer>
+        <script src="js/script.js"></script>
+
+        <script  type="text/javascript" >
+
+            $(document).ready( function() {
+
+                function readURL(input) {
+                    if (input.files && input.files[0]) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            $('#imgUPL').attr('src', e.target.result);
+                        }
+
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                }
+
+                $("#inputIM").change(function(){
+                    readURL(this);
+                });     
+            });
+
+        </script>
+    </body>
+
+</html>

@@ -7,3 +7,15 @@ var loadFooter = function() {
 }
 loadHeader();
 loadFooter();
+
+
+$("#btnUpdate").click(function() {
+  recomendados = $('#inputRecomendados').prop('checked');
+
+  //if(!recomendados){
+   //$(".prueba").css("display","none")
+ // }
+
+ 
+
+});
