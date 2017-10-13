@@ -1,4 +1,4 @@
-var loadHeader = function() {
+var loadHeader = function(callback) {
 	$("header").load('header.html');
 }
 
@@ -8,6 +8,7 @@ var loadFooter = function() {
 
 loadHeader();
 loadFooter();
+
 
 $("#btnUpdate1").click(function() {
 	$('.guardar1').css('display', 'block');

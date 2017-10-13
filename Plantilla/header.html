@@ -8,7 +8,7 @@
             <div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
                 <div class="row">
                     <input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Buscar productos, marcas y más" name="search">
-                    <button class="flipkart-navbar-button col-xs-1">
+                    <button id="searchButton" class="flipkart-navbar-button col-xs-1">
                         <span class="iconsearch fa fa-search"></span>
                     </button>
                 </div>
@@ -114,3 +114,9 @@
         <li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
     </ul>
 </div>
+
+<script type="text/javascript">
+    $("#searchButton").click(function(){
+        window.location.href = "busqueda.html";
+    });
+</script>
