@@ -147,7 +147,7 @@
 	margin-bottom: 5px;
 }
 
-.footer-distributed .siteMap i{
+.footer-distributed .siteMap i, .perfil i {
 
 	display: inline-block;
 	width: 38px;
