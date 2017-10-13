@@ -1,5 +1,5 @@
 
-/*$(document).ready(function (){
+$(document).ready(function (){
 
 	$("#openNav").click(function(){
 		openNav();
@@ -102,8 +102,5 @@ var openNiña = function() {
     }
 }
 
-var loadPage = function() {
-	$("#contenedor").load('view/product.html');
-}
 
-*/
+

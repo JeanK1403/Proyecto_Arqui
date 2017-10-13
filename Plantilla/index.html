@@ -1,12 +1,6 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
 <html lang="en">
-    <head>	
+    <head>  
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,125 +25,10 @@ and open the template in the editor.
     <body>
 
         <header>
-            <div id="flipkart-navbar">
-                <div class="container">
-                    <div class="row row2">
-                        <div class="col-sm-3">
-                            <h2 class="navbarText"><span class="smallnav menu" id="openNav"><i class="fa fa-navicon"></i>Shopping CR</span></h2>
-                            <h1 class="navbarText"><span class="largenav"><a href="index.html">Shopping CR</a></span></h1>
-                        </div>
-                        <div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-12">
-                            <div class="row">
-                                <input class="flipkart-navbar-input col-xs-11" type="text" placeholder="Buscar productos, marcas y más" name="search">
-                                <button class="flipkart-navbar-button col-xs-1">
-                                    <span class="iconsearch fa fa-search"></span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="cart largenav col-sm-2">
-                            <a class="cart-button">
-                                <span class="iconcart fa fa-shopping-cart" id="carrito"></span>
-                            </a>
-                        </div>
-                        <div class="cart largenav col-sm-2">
-                            <a class="cart-button">
-                                Salir
-                            </a>
-                        </div>
-                    </div>
 
-                    <div class="row row1">
-                        <ul class="largenav text-center">
-                            <li class="upper-links dropdown"><a class="links" href="hombre.html">Hombre</a>
-                                <ul class="dropdown-menu">
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-                                </ul>
-                            </li>
-                            <li class="upper-links dropdown"><a class="links" href="mujer.html">Mujer</a>
-                                <ul class="dropdown-menu">
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-                                </ul>
-                            </li>
-                            <li class="upper-links dropdown"><a class="links" href="#!">Niño</a>
-                                <ul class="dropdown-menu">
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Camisas</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-                                </ul>
-                            </li>
-                            <li class="upper-links dropdown"><a class="links" href="#!">Niña</a>
-                                <ul class="dropdown-menu">
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Blusas</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Pantalones</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Vestidos</a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Accesorios </a></li>
-                                    <li class="profile-li"><a class="profile-links" href="products_list.html">Ropa interior</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div id="mySidenav" class="sidenav">
-                <div class="container sidenavContent">
-                    <span class="sidenav-heading">Shopping CR</span>
-                    <a href="javascript:void(0)" class="closebtn" id="closeNav"><i class="fa fa-arrow-left"></i></a>
-                </div>
-                <ul>
-                    <li><a class="links" href="index.html"><i class="fa fa-home"></i> Inicio</a></li>
-                    <li><a class="links" href="#!" id="categories"><i class="fa fa-tags"></i> Categorías</a>
-                        <ul id="listCategories" class="oculto">
-                            <li><a class="links" href="hombre.html" id="man"><i class="fa fa-male"></i>  Hombre</a>
-                                <ul id="listMan" class="oculto">
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisas</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="links" href="mujer.html" id="woman"><i class="fa fa-female"></i>  Mujer</a>
-                                <ul id="listWoman" class="oculto">
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Blusas</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="links" href="#!" id="niño"><i class="fa fa-child"></i>  Niño</a>
-                                <ul id="listNiño" class="oculto">
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Camisas</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-                                </ul>
-                            </li>                               
-                            <li><a class="links" href="#!" id="niña"><i class="fa fa-child"></i>  Niña</a>
-                                <ul id="listNiña" class="oculto">
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Blusas</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Pantalones</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Vestido</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Accesorios</a></li>
-                                    <li><a class="links" href="products_list.html"><i class=""></i>  Ropa interior</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a class="links" href="#!"><i class="iconcart fa fa-shopping-cart"></i>.   Carrito</a></li>
-                    <li><a class="links" href="#!"><i class="fa fa-sign-in"></i> Salir</a></li>
-                </ul>
-            </div>
         </header>
 
-        <div id="contenedor">		
+        <div id="contenedor">       
             <div class="carouselC">
                 <div class="container text-center">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -165,19 +44,19 @@ and open the template in the editor.
                             <div class="item active">
                                 <img src="images/slide1.jpg" alt="...">
                                 <div class="carousel-caption">
-                                    
+
                                 </div>
                             </div>
                             <div class="item">
                                 <img src="images/slide2.jpg" alt="...">
                                 <div class="carousel-caption">
-                                   
+
                                 </div>
                             </div>
                             <div class="item">
                                 <img src="images/slide3.jpg" alt="...">
                                 <div class="carousel-caption">
-                                   
+
                                 </div>
                             </div>
 
@@ -192,11 +71,11 @@ and open the template in the editor.
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
-                    </div>		
-                </div>	
+                    </div>      
+                </div>  
             </div>
 
-            <div class="jumbotron jumbotron-fluid">	
+            <div class="jumbotron jumbotron-fluid"> 
                 <div class="container text-center">
                     <h1 class="font">Bienvenido a Shopping CR</h1>
                     <p><i>La vida es demasiado corta para llevar ropa aburrida</i></p>
@@ -303,7 +182,7 @@ and open the template in the editor.
                         <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="thumbnail">
                                 <div class="jumbotron menImage">
-                                    
+
                                 </div>
                                 <strong>Hombre</strong>
                             </div>
@@ -311,7 +190,7 @@ and open the template in the editor.
                         <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="thumbnail">
                                 <div class="jumbotron womenImage">
-                                    
+
                                 </div>
                                 <strong>Mujer</strong>
                             </div>
@@ -319,7 +198,7 @@ and open the template in the editor.
                         <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="thumbnail">
                                 <div class="jumbotron boyImage">
-                                    
+
                                 </div>
                                 <strong>Niño</strong>
                             </div>
@@ -327,7 +206,7 @@ and open the template in the editor.
                         <div class="item col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="thumbnail">
                                 <div class="jumbotron girlImage">
-                                    
+
                                 </div>
                                 <strong>Niña</strong>
                             </div>
@@ -338,56 +217,8 @@ and open the template in the editor.
         </div>
 
         <footer class="container footer-distributed">
-            <div class="footer-left">
-                <h3>Shopping<span> CR</span></h3>
-                <p class="footer-links">
-                    <a href="#">Hombre</a>		·
-                    <a href="#">Mujer</a>	·
-                    <a href="#">Niño</a>    ·
-                    <a href="#">Niña</a>
-                </p>
 
-                <div class="footer-icons">					
-                    <a href="#"><i class="fa fa-cc-mastercard"></i></a>
-                    <a href="#"><i class="fa fa-cc-visa"></i></a>
-                    <a href="#"><i class="fa fa-cc-amex"></i></a>
-                    <a href="#"><i class="fa fa-credit-card-alt"></i></a>
-                </div>
-
-                <div class= "siteMap">
-                    <a href="sitemap.html"><i class="fa fa-sitemap" aria-hidden="true"></i>  Mapa del sitio</a>
-                </div>
-            </div>
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-map-marker"></i>
-                    <p><span>21 Revolution Street</span> San José, Costa Rica</p>
-                </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+506 2222-2222</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="mailto:info@company.com">info@shopcr.com</a></p>
-                </div>
-            </div>
-            <div class="footer-right">
-                <p class="footer-company-about">
-                    <span><a href="about.html">Sobre la empresa</a></span>
-                    Shopping CR es una empresa mayorista siendo una de las mejores opciones de compra por el hecho de contar con almacenes de amplia tradición y prestigio en el ámbito nacional.
-                </p>
-                <div class="footer-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a  target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-                    <a  target="_blank" href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a>
-                    <a  target="_blank" href="https://www.facebook.com"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="footerLine text-center">
-                <p class="footer-company-name">Shopping CR &copy; 2017</p>
-            </div>
         </footer>
-
+        <script src="js/script.js"></script>
     </body>
 </html>
